@@ -1,0 +1,80 @@
+                        body {
+                            background: #0C1114;
+                        }
+                        
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                        
+                        .main {
+                            margin: 0 auto;
+                            width: 100%;
+                            background-image: url(/img/fon-bg.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            height: 590px;
+                            color: #FFFFFF;
+                            text-align: center;
+                        }
+                        
+                        .main__info {
+                            margin: 0 auto;
+                            text-align: center;
+                            padding-top: 13px;
+                            margin-bottom: 25px;
+                        }
+                        
+                        .logo {
+                            margin-bottom: 10px;
+                        }
+                        
+                        .logo__title {
+                            font-family: 'Circe Bold', sans-serif;
+                            font-weight: bold;
+                            font-size: 20px;
+                            line-height: 29px;
+                        }
+                        
+                        .logo__text {
+                            font-family: 'Circe Bold';
+                            font-weight: bold;
+                            font-size: 12px;
+                            line-height: 18px;
+                            text-transform: uppercase;
+                        }
+                        
+                        .main__item {
+                            margin: 0 auto;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: bold;
+                            font-size: 18px;
+                            line-height: 21px;
+                            letter-spacing: -0.01em;
+                            margin-bottom: 25px;
+                        }
+                        
+                        .main__item__item+.main__item__item {
+                            margin-top: 13px;
+                        }
+                        
+                        .main__item__item {
+                            margin: 0 auto;
+                            text-align: center;
+                            width: 304px;
+                            height: 48px;
+                            background: rgb(12, 17, 20, 0.6);
+                            border-radius: 3px;
+                            padding: 14px 0 13px 0;
+                        }
+                        
+                        .main__item__item span {
+                            margin-left: 7px;
+                            margin-right: 6.28px;
+                            vertical-align: middle;
+                        }
